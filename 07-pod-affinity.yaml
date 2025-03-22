@@ -14,9 +14,8 @@ kind: Pod
 metadata:
   name: pod-2
   labels:
-    app-name: pod-2
-spec:  
-  spec:
+    app-name: pod-2  
+spec:
   affinity:
     podAffinity:
       requiredDuringSchedulingIgnoredDuringExecution:
