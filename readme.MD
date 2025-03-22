@@ -4,4 +4,4 @@ taint node
 
 ...
 
-kubectl taint nodes node1 hardware=gpu:NoSchedule
+kubectl taint nodes ip-192-168-7-230.ec2.internal    hardware=gpu:NoSchedule
