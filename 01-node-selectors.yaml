@@ -1,9 +1,9 @@
 piVersion: v1
 kind: Pod
 metadata:
-  name: node-selector
+  name: node-selectors
   labels:
-    purpose: "selector-demo"
+    purpose: "selectors-demo"
 spec:
   nodeSelector:
     topology.kubernetes.io/zone: us-east-1a
